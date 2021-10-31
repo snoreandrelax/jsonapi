@@ -1,0 +1,10 @@
+{
+	"status": "{{ticket.status}}",
+	"id": "{{ticket.id}}",
+	"updated": "{{ticket.updated_at_with_timestamp}}",
+	"title": "{{ticket.title}}",
+	"requester": "{{ticket.requester.name}}",
+	"comment": "{{ticket.latest_comment}}",
+	"sender": "{{current_user.name}}",
+	"url": "{{ticket.link}}"
+}
